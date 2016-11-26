@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet">
+	  <link type="text/css" rel="stylesheet" href="data_science_1.css"/>
+
+    <title> Data Science </title>
+  </head>
+
+
+	<body>
+      <img class="front-pic" src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2014/03/numbers-data-carlos-amarillo-shutterstock.jpg?fit=780%2C9999" />
+
+  		<div class="navig">
+    		<div class="button">
+            <li><a href="website.html">Home</a></li>
+	    	    <li><a href="data_science_1.html">Data Science</a></li>
+		        <li><a >Blog and Projects</a></li>
+  		       <li><a >CV</a></li>
+            <li><a >Login</a></li>
+  		  </div>
+      </div>
+
+    <div class="intro"> 
+      <div class="text">
+        <p> 
+        Data sience leverages knowledge and 
+        tools from multiple subdisciplines, which have for foundational pillars the following:<br>
+          <li> <b>Mathematics:</b> The basic building tools for the other disciplines, from linear algebra to analysis and combinatorics</li><br>
+          <li> <b>Computer Science:</b> Because of the large size of the datasets explored and the requirements for rapid processing, computer science
+             is the main pillar of data science. Both applied (programming, databases etc...) and theoretical aspects (algorithm
+             optimization, data structures...) are mobilized. </li><br>
+          <li> <b>Statistics:</b> Statistics provides the framework to analyze the data, from correct use of data cleaning and sampling 
+             methods, to characterization of the datasets (descriptive statistics), modelization (inferential statistics) and conclusions regarding
+             the scope of the findings. </li><br>
+          <li> <b>Machine learning:</b> At the interface of computer science and statistics, machine learning
+             provides algorithms that can "learn" from data to recognize patterns and build predictive
+             models. </li><br>
+          <li> <b>Data visualization:</b> The various tools and techniques used to faithfully present the findings of an analysis to the 3D constrained
+             human eyes. </li>
+        </p>
+      </div>
+
+      </div>
+        <img class="schema" src="data_science_schema.jpg" />
+      </div>
+    </div>
+
+    <div class="intro">
+      <div class="text">
+        <p> 
+        As presented in more details <a href="http://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext">here</a>, 
+        a typical data science project will follow a 4 steps workflow, each of which involving
+        specific tools and methods:<br>
+          <li> <b>Data preparation:</b> Acquiring, cleaning and storing the data. The main challenge is the heterogeneity in the nature and
+          provenance of the data. Some useful tools: python, R, SQL, NoSQL (for big data the database ecosystem around Hadoop+HDFS or Spark)...</li><br>
+          <li> <b>Data analysis:</b> Descriptive analysis and modelization with machine learning algorithms or statistical models. Useful tools:
+                  scikit-learn, R, NLP libraries,graph libraries, weka, Mahout ...</li><br>
+          <li> <b>Evaluation:</b> Evaluation of the models. Requires understanding of the issues related to statistical inference, 
+                  bias/variance, feature selection, algorithm optimization ... The Data Analysis and Evaluation
+                  steps are alternated until a satisfying solution is achieved</li><br>
+          <li> <b>Communication:</b> Dissemination and visualization of the information can take many forms, from reports, to online apps. 
+                  Useful tools: javascript, D3.js, python, ,R, Tableau .../</li><br>
+        </p>
+      </div>
+      </div>
+        <img class="schema" src="data_science_workflow.jpg" />
+      </div>
+    </div>
+
+
+    <div class="intro">
+      <div class="text">
+        <p> The following links are are short notes, python notebooks or RMarkdown documents that
+          give examples of usage of some of the aformentionned tools:</p>
+          <li> <a href="#"<b>Crawling the web and scrapping data with BeautifulSoup</b>
+          <li> <a href="#"<b>Object Oriented programming with python</b>
+      </div>
+    </div>
+
+  </body>
+</html>

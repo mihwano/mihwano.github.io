@@ -1,0 +1,51 @@
+.front-pic{
+	height: 250px;
+	width: 100%;
+}
+
+.navig div{
+  height:50px;
+}
+
+.button li{
+  position: relative;
+  padding: 15px 20px;
+  left: 27%;
+	display: inline;
+  font-size: 150%;
+}
+
+.button li a{
+  color: Black;
+}
+
+.button li:hover a{
+  font-size: 30px;
+}
+
+
+.intro{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 450px;
+  margin-left: 350px;
+  font-size:14px;
+}
+
+.schema{
+  margin-top: 100px;
+  height:500px;
+  width: 500px;
+}
+
+.text{
+  width: 600px;
+}
+
+.text li{
+  margin-left: 30px;
+  width: 440px;
+  padding-bottom:10px;
+}
+

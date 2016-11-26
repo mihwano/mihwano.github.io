@@ -1,0 +1,73 @@
+\Documentclass{article}
+\begin{document}
+
+Notes on CSS 
+P {//
+  attribute (ie) color: etc...//
+  }//
+will modify paragraphs//
+
+Specific tags can be modified (like span etc...)//
+
+In the <head> of the html://
+<link type="text/css" rel="stylesheet" href="stylesheet.css"/>//
+
+additional colors: look for hex color palette : #FFC125//
+
+For size of pizeld, one cna use the em unit, which is relative to
+the device screen display//
+
+
+
+CSS instructions can be in separate file or go between the <style> tags
+in the <head></head> of the HTML file//
+
+p {//
+    color: green;//
+    font-family: Garamond;//
+    font-size: 24px;//
+}//
+
+Comments: /*I'm a comment!*///
+
+div {
+    height: 50px;
+    width: 120px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+ 
+Nested selectors: div div p{ will only apply to paragraph nested in the second 
+division//
+
+grabbing element directly nested with >: div > p{
+
+to give properties across several type of selectors: use classs and IDs
+
+in CSS use .class{   or #id {
+<p class="fancy"> </p> in html
+<p id="fancy"> </p>
+
+pseudo class-selector: allows to style elements that are not part of the html
+selector:pseudo-class_selector {
+    property: value;
+}
+It allows for example to change property of an element that is being browsed over
+selector: first-child{    apply properties to first selector child
+selector: nth-child(3){   apply to 3 rd selector child
+
+\end{document}
+
+tag attribute: display: block / inline-block
+Allows to position elements
+
+Padding/border/margins
+
+selector {
+    margin: top right bottom left;
+    float:
+    position: absolute/relative/fixed (fixed it won't move when scrolling)
+}
