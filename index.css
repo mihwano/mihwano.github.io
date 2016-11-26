@@ -38,18 +38,21 @@ h1{
 }
 
 .presentation div{
-  display: inline-block;
+  display: block;
   vertical-align: top;
-  height: 400px;
+  height: 100px;
   width: 40%;
   margin-right: 10px;
   margin-left: 10px;
 }
 
 .portrait img{
+  position: absolute;
+  right: 100px;
+  top : 550px;
   margin-left: 500px;
-  height: 250px;
-  width : 350px;
+  height: 350px;
+  width : 450px;
 }
 
 #text p{
