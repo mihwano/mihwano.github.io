@@ -42,12 +42,12 @@ h1{
   vertical-align: top;
   height: 400px;
   width: 40%;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .portrait img{
-  margin-left: 250px;
+  margin-left: 500px;
   height: 250px;
   width : 350px;
 }
