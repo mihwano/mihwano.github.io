@@ -1,4 +1,0 @@
-
-- download ipython notebook in directory where git sees it
-
--
