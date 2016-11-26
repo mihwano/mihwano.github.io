@@ -1,12 +1,12 @@
 .front-pic{
-	height: 80%;
+	height: 40%;
 	width: 100%;
 }
 
 #title{
 	float: left;
 	text-align: left;
-	height: 120px;
+	height: 60px;
 	width:90%;
 }
 h1{
@@ -56,5 +56,8 @@ h1{
 }
 
 #text p{
+  position: absolute;
+  left: 100px;
+  font-size: 20px;
   width: 550px;
 }
