@@ -40,7 +40,25 @@
           <a href="https://nbviewer.jupyter.org/github/mihwano/mihwano.github.io/blob/master/notes/basemaps.ipynb">Basemaps for python</a>
           <br>
           <br>
-          27/11/2016<br>
+	  </p>
+	  <p style="line-height:70%">
+          8/12/2016<br><br>
+	  About unix and environment variables: <br><br>
+		<font size=2; height=2px>
+	 	when adding a path to the environment variable: <br>
+	 	       <b>&nbsp;&nbsp;- export PATH=/path/to/repository</b>&nbsp;&nbsp;&nbsp;replace all the current variables by the new PATH <br>
+	 	       <b>&nbsp;&nbsp;- export PATH=/path/to/r1:/path/to/r2</b>&nbsp;&nbsp;&nbsp;':' adds to the environemnt variables  <br>
+	 	       <b>&nbsp;&nbsp;- export PATH=&#36PATH:/path/to/r  <=> PATH=/path/to/r:&#36PATH</b>&nbsp;&nbsp;&nbsp;The order matters. If an executable program A is in /path/to/r but a program B with the same name is also in PATH, B will be executed in the first case, but A in the second case <br>
+	 	       <b>&nbsp;&nbsp;- The environment is for storing paths as well as variable values (session username etc...)</b><br>
+	 	       <b>&nbsp;&nbsp;- When setting a cron job in crontab -e, the cron executes shell scripts as a root</b>. If a program necessitates to lookup data as a user, the user name needs to be exported as an environment variable by the shell script being executed by cron. <br>
+For example logging into postgresql using a .pgpass file. Need to export the os.user in the script lauching psql so that the correct password is identified by psql<br>
+	 	      &nbsp;&nbsp;- Good ressource about unix and scripting ""placeholder""
+	  </font>
+	   <br>
+	   <br>
+	   </p>
+	   <p>
+	   11/12/2016<br>
           </p>
               
         </div>
