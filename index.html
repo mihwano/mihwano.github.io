@@ -34,7 +34,6 @@
         </div>
 
        <div id="text">
-
           <p> 26/11/2016 <br>
           Python has several options to plot data on top of background maps. Some of these
           options are shown in this notebook: <br>
@@ -66,14 +65,31 @@ For example logging into postgresql using a .pgpass file. Need to export the os.
 	   <br>
 	   <br>
           </p>
+	</div>
 
-	<p> 16/12/2016 </br>
+	<div id="text2">
+	<p> 16/12/2016 <br>
 	When working on a remote server, using <a href="https://tmux.github.io/"> TMUX</a> is a useful tool to: <br>
+	<font size=2; height=2px>
 	- Open a session to run tasks on a remote server, keep the task running in the event of a disconnect, and get back to it when relogging later. <br>
 	- Have multiple windows opened in the same unix terminal window. <br>
-	See <a href="https://danielmiessler.com/study/tmux/#windowspanes"> this short write up </a>
+	See <a href="https://danielmiessler.com/study/tmux/#windowspanes"> this short write up </a> <br> <br>
+	</font>
+	To make a package work independent of where a user downloads it, use paths relative to the path where the script is installed: <br>
+	<font size=2; height=2px>
+	THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" <br>
+	- $() is like the "%s" %var or "{}".format(var) in python. It passes the value of a variable or command to a string <br>
+	- dirname outputs the path of a file or directory (dirname "/usr/bin/" -> "/usr") <br>
+	- BASH_SOURCE is an array that stores the path to all the called scripts currently in the shell execution stack. The first element of the array is the path to the CURRENTLY executing shell script. <br>
+	- && can be a logical AND, or run a command after the previous one. <br>
+	So this command cd into the directory of the current active shell script, then runs "pwd" to get the working directory. That way one can retrieve the path of the running script, in case where the path from which the script is called in the shell is different than the path where the script is located.
+	</font>
+	<br><br>
+
+         18/12/2016 <br>
+	  Using Bokeh for interactive visualization  of large datasets.
 	</p>
-         
+
         </div>
 
     </div>
