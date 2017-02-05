@@ -83,10 +83,25 @@ For example logging into postgresql using a .pgpass file. Need to export the os.
 	- BASH_SOURCE is an array that stores the path to all the called scripts currently in the shell execution stack. The first element of the array is the path to the CURRENTLY executing shell script. <br>
 	- && can be a logical AND, or run a command after the previous one. <br>
 	So this command cd into the directory of the current active shell script, then runs "pwd" to get the working directory. That way one can retrieve the path of the running script, in case where the path from which the script is called in the shell is different than the path where the script is located.
+	- <b>writing functions in bash: </b><br>
+	    function func_name{</br>
+	      local var1=$1 (assigning first argument to var1)</br>
+	      local var2=$2</br>
+	      local var10=${10} (syntax for passed argument greater than 10) </br>
+	      str_var='new_str_'$var1  (same as str_var = 'new_str' + var1 in python) </br>
+	      }</br>
+	     func_name 'arg1' 'arg2' ... 'arg10'</br>
+
 	</font>
 	<br><br>
 
-         18/12/2016 <br>
+    05/02/2017 <br>
+	  Python: concepts of <a href="http://nbviewer.jupyter.org/github/mihwano/mihwano.github.io/blob/master/notes/generators.ipynb"> generators</a> closures
+	      
+	</font>
+	<br><br>
+
+    18/12/2016 <br>
 	  Using Bokeh for interactive visualization  of large datasets.
 	</p>
 
